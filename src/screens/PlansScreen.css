@@ -1,0 +1,39 @@
+.plansScreen__plan {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  opacity: 0.8;
+}
+
+.plansScreen__plan:hover {
+  opacity: 1;
+}
+
+.plansScreen__plan > button {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: #e50914;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.plansScreen__info > h5 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.plansScreen__info > h6 {
+  font-size: 1.4rem;
+}
+
+.plansScreen__plan--disable > button {
+  background-color: gray !important;
+}
+
+.plansScreen__date {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: green;
+}
